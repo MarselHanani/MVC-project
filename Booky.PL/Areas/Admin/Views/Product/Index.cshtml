@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ProductViewModel> 
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<div class="row">
+    <div class="col-6">
+        <h2>Product</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-action="Create" asp-controller="Product" class="btn btn-primary">Add Product</a>
+    </div>
+</div>
+@if (Model.Count() > 0)
+{
+    <table class="table-bordered table border-3 border-dark">
+        <thead class="border-2">
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>ListPrice</th>
+            <th>Price</th>
+            <th>Price 50+</th>
+            <th>Price 100+</th>
+            <th>Category</th>
+        </tr>
+        </thead>
+        <tbody class="border-dark border-5">
+        @foreach (var pro in Model)
+        {
+            <tr>
+                <td>@pro.Id</td>
+                <td>@pro.Title</td>
+                <td>@pro.Description</td>
+                <td>@pro.Author</td>
+                <td>@pro.ISBN</td>
+                <td>@pro.ListPrice</td>
+                <td>@pro.Price</td>
+                <td>@pro.Price50</td>
+                <td>@pro.Price100</td>
+                <td>@pro.ImageUrl</td>
+
+
+               <td>
+                   <div class="w-25 btn-group">
+                       <a class="me-3" asp-route-id="@pro.Id" asp-action="Edit"><i class="bi bi-pencil-square btn btn-primary"></i></a> 
+                       <a asp-action="Delete" asp-route-id="@pro.Id"><i class="bi bi-trash3 btn btn-danger"></i></a>
+                   </div>
+               </td> 
+            </tr>
+        }
+        </tbody>
+    </table>
+}else
+{
+    <table class="table table-bordered border-3 border-dark ">
+        <thead class="border-2">
+        <tr>
+            <th>Name Category</th>
+            <th>Display Order</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="2" class="text-center fw-bold">NO Found Category</td>
+        </tr>
+        </tbody>
+    </table> 
+}

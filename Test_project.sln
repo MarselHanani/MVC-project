@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booky.PL", "Booky.PL\Booky.PL.csproj", "{3DCC4892-129C-494E-949D-8E54C8667AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booky.ADL", "Booky.ADL\Booky.ADL.csproj", "{BECB6FDB-7066-462B-B503-D532F6AF9EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booky.BL", "Booky.BL\Booky.BL.csproj", "{9DC014AE-2C5D-4C07-BA50-4D3E74D5A832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DCC4892-129C-494E-949D-8E54C8667AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCC4892-129C-494E-949D-8E54C8667AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCC4892-129C-494E-949D-8E54C8667AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCC4892-129C-494E-949D-8E54C8667AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECB6FDB-7066-462B-B503-D532F6AF9EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECB6FDB-7066-462B-B503-D532F6AF9EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECB6FDB-7066-462B-B503-D532F6AF9EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECB6FDB-7066-462B-B503-D532F6AF9EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC014AE-2C5D-4C07-BA50-4D3E74D5A832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC014AE-2C5D-4C07-BA50-4D3E74D5A832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC014AE-2C5D-4C07-BA50-4D3E74D5A832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC014AE-2C5D-4C07-BA50-4D3E74D5A832}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

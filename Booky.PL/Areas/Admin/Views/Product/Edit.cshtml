@@ -1,0 +1,21 @@
+﻿@model ProductViewModel
+
+@{
+    ViewBag.Title = "Update Product";
+    Layout = "_Layout";
+}
+
+<h2>Update</h2>
+<form method="post">
+    <div class="border p-3 mt-4">
+    <partial name="PartialViews/CreateEditView"/>
+        <div class="row d-flex  justify-content-between">
+            <div class="col-6 col-md-3">
+                <button type="submit" class="btn btn-success form-control"><i class="bi bi-pencil-square">Update</i></button>
+            </div>
+            <div class="col-md-3 col-6">
+                <a class="btn btn-primary form-control" asp-action="Index" asp-controller="Product" >Back to list</a>
+            </div>
+        </div>
+    </div>
+</form>

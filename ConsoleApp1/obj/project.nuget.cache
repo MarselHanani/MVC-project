@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "xIVZK8R27Vql5kwnL0CjQG+bXleo2ZUkhfnxvfNP3CY3rB0V+t1Oa0GDm+hSkrvIQwSiS0gDgC+98Za3eveS9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AL-YAMEN\\RiderProjects\\test_project\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AL-YAMEN\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\AL-YAMEN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\AL-YAMEN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\AL-YAMEN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
